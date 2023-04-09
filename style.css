@@ -3,28 +3,36 @@
     padding: 0;
     background:#C7E3E1;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: auto;
-    margin: 1dvh;
     align-content: space-around;
+    margin: 50px;
     
 }
 
 input{
-    width: 100%;
+    width: 30%;
     margin: 15px 10px;
     border: 5px solid black;
     border-radius: 100px;
-    padding: 25px;
-    font-size: large;
+    padding: 29px;
+    font-size: 40px;
+    text-align:right;
 }
 button{
     width: 90px;
     height: 100%;
-    padding: 4vh;
+    padding: 2vh;
     border: 1px solid black;
     border-radius: 90px;
     font-size: 50px;
